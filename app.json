@@ -4,11 +4,11 @@
     "slug": "react-gym-deploy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icono.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/icono.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icono.png",
         "backgroundColor": "#ffffff"
       }
     },
@@ -28,6 +28,9 @@
     },
     "plugins": [
       "expo-router"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
     ],
     "experiments": {
       "typedRoutes": true
